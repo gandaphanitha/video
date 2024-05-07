@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="./video1.css">
+</head>
+
+<body>
+    <h1>Sunrise in the Mountain valley</h1>
+    <div class="home">
+        <div id="video-controls-bar">
+            <button id="playbtn" onclick="play()">Play</button>
+            <button id="pausebtn" onclick="pause()">Pause</button>
+            
+        </div>
+       
+        <video class="video-container" id="video-container" controls>
+            <source src="https://videos.pexels.com/video-files/5910274/5910274-hd_1920_1080_25fps.mp4">
+            <!-- <source
+                src="https://assets.mixkit.co/videos/preview/mixkit-very-close-shot-of-the-leaves-of-a-tree-wet-18310-large.mp4"
+                type="video/mp4"> -->
+          
+        </video>
+
+    </div>
+
+    <script src="./video1.js"></script>
+</body>
+
+</html>
